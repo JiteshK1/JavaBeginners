@@ -43,15 +43,15 @@ public class Team<T extends Player,S> {
         System.out.println(teamMembers);
     }
 
-    public int ranking(){
+     public int ranking(){
         return (totalLoss *2) + totalTies +1;
     }
+
 
     @Override
     public String toString() {
         return teamName+" ( Ranked " + ranking() + ")";
     }
-
     public  String setScore(int ourScore , int theirScore) {
         String message = "Loss to ";
         if (ourScore > theirScore) {
