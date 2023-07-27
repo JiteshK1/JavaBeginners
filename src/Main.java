@@ -1,5 +1,5 @@
-import Generics.BaseClass;
-import comsumer.specific.ChildClass;
+import com.jitesh.generics.BaseClass;
+import com.jitesh.comsumer.specific.ChildClass;
 
 public class Main {
     public static void main(String[] args) {
