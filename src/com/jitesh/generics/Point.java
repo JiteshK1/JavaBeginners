@@ -6,7 +6,7 @@ abstract class Point implements  Mappable{
     private double[] location = new double[2];
 
     public Point(String location) {
-        this.location = stringToLatLon(location);
+        this.location = Mappable.stringToLatLon(location);
     }
 
     @Override
